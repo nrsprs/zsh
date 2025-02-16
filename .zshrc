@@ -48,6 +48,8 @@ update_prompt() {
     PROMPT="$(venv_name)$(parse_git_branch)%B%F{40}%n%f%b%B%F{40}@%f%b%B%F{40}%m%f%b%F{74} /%f%F{74}%1~%f > "
 }
 precmd_functions+=(update_prompt)
+#force_color_prompt=yes
+#color_prompt=yes
 update_prompt
 
 # Username highlight:
@@ -59,14 +61,14 @@ export EDITOR=nano
 export VISUAL="$EDITOR"
 
 # Link nano 8.0:
-alias nano='/usr/local/Cellar/nano/8.0/bin/nano'
+alias nano='/usr/local/Cellar/nano/8.0/bin/nano -m'
 
 # Alias python
 alias python='python3'
 alias py='python3'
 
 # Alias l to extended details:
-alias l='ls -alF'
+alias l='ls -alhF'
 alias ls='ls -F'
 
 # Alias ~/.zshrc
@@ -92,3 +94,13 @@ alias cat="bat"
 
 # Add bin to path:
 export PATH="/usr/local/bin:$PATH"
+
+# port_cassini command:
+alias port_cassini="sh ~/workspaces/zsh_scripts/ssh_cassini.sh &"
+
+# source esp idf & add IDF_PATH env var:
+alias espidf="source $HOME/workspaces/esp-idf/export.sh"
+export IDF_TOOLS_PATH="$HOME/workspaces/esp-idf/tools"
+export IDF_PATH="$HOME/workspaces/esp-idf"
+#export IDF_PATH="$HOME/.platformio/packages/framework-espidf"
+#export IDF_TOOLS_PATH="$HOME/.platformio/packages/framework-espidf/tools"
