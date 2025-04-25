@@ -1,0 +1,175 @@
+{
+  "C_Cpp.default.compilerPath": "/usr/bin/clang",
+  "[cpp]": {
+    "editor.semanticHighlighting.enabled": true,
+    "editor.suggest.insertMode": "replace",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "aws.telemetry": false,
+  "cmake.configureOnOpen": false,
+  "debug.onTaskErrors": "debugAnyway",
+  "editor.accessibilitySupport": "off",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "git.openRepositoryInParentFolders": "never",
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.startupEditor": "none",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "workbench.layoutControl.enabled": false,
+  "security.workspace.trust.banner": "never",
+  "C_Cpp.autocompleteAddParentheses": true,
+  "editor.minimap.autohide": true,
+  "cmake.showOptionsMovedNotification": false,
+  "arduino.useArduinoCli": true,
+  "arduino.ignoreBoards": [],
+  "arduino.path": "/usr/local/bin/arduino-cli",
+  "platformio-ide.disablePIOHomeStartup": true,
+  "editor.codeActionWidget.includeNearbyQuickFixes": false,
+  "workbench.productIconTheme": "macos-modern",
+  "window.commandCenter": false,
+  "update.showReleaseNotes": false,
+  "editor.minimap.enabled": false,
+  "hediet.vscode-drawio.resizeImages": null,
+  "files.autoSave": "afterDelay",
+  "python.createEnvironment.trigger": "off",
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "ruff.configuration": "~/workspaces/ruff/ruff.toml",
+  "[java]": {
+    "editor.defaultFormatter": "Oracle.oracle-java"
+  },
+  "debug.openDebug": "openOnFirstSessionStart",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-22",
+      "path": "/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home"
+    }
+  ],
+  "window.customTitleBarVisibility": "windowed",
+  "editor.fontFamily": "SF Mono",
+  "python.analysis.typeCheckingMode": "standard",
+  "editor.suggest.localityBonus": true,
+  "explorer.confirmPasteNative": false,
+  "explorer.decorations.colors": true,
+  "editor.formatOnPaste": true,
+  "java.completion.favoriteStaticMembers": [
+    "org.junit.Assert.*",
+    "org.junit.Assume.*",
+    "org.junit.jupiter.api.Assertions.*",
+    "org.junit.jupiter.api.Assumptions.*",
+    "org.junit.jupiter.api.DynamicContainer.*",
+    "org.junit.jupiter.api.DynamicTest.*",
+    "org.mockito.Mockito.*",
+    "org.mockito.ArgumentMatchers.*",
+    "org.mockito.Answers.*",
+  ],
+  "editor.linkedEditing": true,
+  "editor.rulers": [],
+  "editor.unicodeHighlight.includeComments": true,
+  "workbench.editor.revealIfOpen": true,
+  "workbench.tree.indent": 20,
+  "emmet.variables": {
+    "lang": "en"
+  },
+  "cSpell.diagnosticLevel": "Hint",
+  "trailing-spaces.backgroundColor": "rgba(255,0,0,0.1)",
+  "trailing-spaces.includeEmptyLines": false,
+  "terminal.integrated.tabs.hideCondition": "never",
+  "terminal.integrated.enablePersistentSessions": false,
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.configuration.detectJdksAtStart": false,
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.debug.settings.hotCodeReplace": "auto",
+  "java.dependency.packagePresentation": "hierarchical",
+  "java.maxConcurrentBuilds": 8,
+  "java.sources.organizeImports.staticStarThreshold": 1,
+  "terminal.integrated.fontFamily": "SF Mono",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.profiles.osx": {
+    "JavaSE-1.8 LTS": {
+      "overrideName": true,
+      "env": {
+        "ZDOTDIR": "/Users/nick/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk",
+        "JAVA_HOME": "/Users/nick/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/8"
+      },
+      "path": "zsh"
+    },
+    "JavaSE-22": {
+      "overrideName": true,
+      "env": {
+        "ZDOTDIR": "/Users/nick/Library/Application Support/Code/User/globalStorage/pleiades.java-extension-pack-jdk",
+        "JAVA_HOME": "/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home"
+      },
+      "path": "zsh"
+    }
+  },
+  "jdk.java.onSave.organizeImports": false,
+  "files.associations": {
+    "CHANGELOG": "plaintext"
+  },
+  "extensions.autoCheckUpdates": false,
+  "extensions.autoUpdate": false,
+  "update.mode": "none",
+  "editor.scrollbar.verticalScrollbarSize": 10,
+  "settingsSync.keybindingsPerPlatform": false,
+  "settingsSync.ignoredExtensions": [
+    "*",
+  ],
+  "idf.espIdfPath": "/Users/nick/workspaces/esp-idf",
+  "idf.pythonBinPath": "/Users/nick/.espressif/python_env/idf5.3_py3.13_env/bin/python",
+  "idf.toolsPath": "/Users/nick/.espressif",
+  "idf.customExtraPaths": "/Users/nick/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin:/Users/nick/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin:/Users/nick/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin:/Users/nick/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20240530/riscv32-esp-elf/bin:/Users/nick/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin:/Users/nick/.espressif/tools/openocd-esp32/v0.12.0-esp32-20240318/openocd-esp32/bin:/Users/nick/.espressif/tools/esp-rom-elfs/20240305",
+  "idf.customExtraVars": {
+    "OPENOCD_SCRIPTS": "/Users/nick/.espressif/tools/openocd-esp32/v0.12.0-esp32-20240318/openocd-esp32/share/openocd/scripts",
+    "ESP_ROM_ELF_DIR": "/Users/nick/.espressif/tools/esp-rom-elfs/20240305/"
+  },
+  "idf.gitPath": "git",
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask"
+  ],
+  "cmake.showConfigureWithDebuggerNotification": false,
+  "[c]": {
+    "editor.wordBasedSuggestions": "off",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.stickyScroll.defaultModel": "foldingProviderModel",
+    "editor.suggest.insertMode": "replace",
+    "editor.tabSize": 4,
+  },
+  "idf.pythonInstallPath": "/Users/nick/workspaces/esp-idf/tools/python_env/idf5.5_py3.13_env/bin/python",
+  "idf.hasWalkthroughBeenShown": true,
+  "idf.showOnboardingOnInit": false,
+  "workbench.panel.showLabels": false,
+  "workbench.iconTheme": "Monokai Pro Icons",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "workbench.preferredDarkColorTheme": "Atomize",
+  "workbench.tips.enabled": false,
+  "telemetry.telemetryLevel": "off",
+  "window.confirmBeforeClose": "keyboardOnly",
+  "python.defaultInterpreterPath": "/usr/local/bin/python3.11",
+  "continue.enableTabAutocomplete": true,
+  "continue.telemetryEnabled": false,
+  "workbench.colorTheme": "Atom One Light",
+  "workbench.editor.showIcons": false,
+  "continue.showInlineTip": false,
+  "ruff.lineLength": 86,
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredHighContrastColorTheme": "Atomize",
+  "workbench.preferredLightColorTheme": "Atom One Light",
+  "editor.inlayHints.fontFamily": "SF Mono",
+  "workbench.activityBar.location": "top",
+  "C_Cpp.inlayHints.parameterNames.enabled": true,
+  "C_Cpp.inlayHints.autoDeclarationTypes.showOnLeft": true,
+  "C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
+  "python.analysis.inlayHints.pytestParameters": true,
+  "python.analysis.inlayHints.variableTypes": true,
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "C_Cpp.inlayHints.referenceOperator.showSpace": true,
+  "python.missingPackage.severity": "Warning",
+  "editor.lightbulb.enabled": "off",
+  "files.simpleDialog.enable": true,
+}
